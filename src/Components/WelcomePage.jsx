@@ -25,6 +25,8 @@ function WelcomePage() {
         else {
             setUser(username)
             setpass(password)
+            localStorage.setItem("user", username);
+            localStorage.setItem("password", password);
             navigate("/product", { replace: true })
         }
     }

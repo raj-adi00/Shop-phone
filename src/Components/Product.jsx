@@ -1,8 +1,9 @@
 import React from 'react'
+import Header from './Header'
 
 function Product() {
   return (
-    <div>Product</div>
+    <div><Header /></div>
   )
 }
 
