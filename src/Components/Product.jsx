@@ -11,7 +11,7 @@ function Product() {
     document.querySelector(".productpage").style.overflow = `hidden`
   }, [])
   return (
-    <div className='productpage'>
+    <div className='productpage no-scrollbar'>
       <Header />
       <List />
     </div>
