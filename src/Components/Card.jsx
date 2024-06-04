@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import FullDisplay from './FullDisplay';
@@ -6,7 +6,8 @@ import UserContextProvider from '../Context/UserContextProvider';
 import UserContext from '../Context/UserContext';
 
 function Card(props) {
-    const { currentopen, setcurrentopen } = useContext(UserContext)
+    const { currentopen, setcurrentopen, cartitems, setcartitems } = useContext(UserContext)
+    // const [incart, setincart] = useState(false);
     const url = props.obj.link;
     const name = props.obj.name;
     const price = props.obj.price;
@@ -41,7 +42,7 @@ function Card(props) {
             </div>
             <div className='flex w-full justify-around details'>
                 <div className='text-center font-medium text-lg phonename py-2 text-blue-900'>{name}</div>
-                <div className='text-center font-medium text-lg phonename py-2 text-black'>&#8377; {price}</div>
+                <div className={  `text-center font-medium text-lg phonename py-2 text-black` }>&#8377; {price}</div>
             </div>
         </div>
     )

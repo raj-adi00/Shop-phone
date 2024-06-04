@@ -22,7 +22,7 @@
 
 .addcart {
     left: -100%;
-    transition: left 0.5s ease;
+    transition: left 1s ease;
     opacity: 0;
 }
 
@@ -34,4 +34,9 @@
 }
 .show{
     z-index: 100;
+}
+.cartlist{
+    transition: all 1s;
+    position: fixed;
+    left: -100%;;
 }

@@ -1,0 +1,50 @@
+{
+    "sg1": {
+        "name": "SAMSUNG M14",
+        "link": "https://lh3.googleusercontent.com/pw/AP1GczP9aH7mXY3gvThsaaHFTpo194v10eDklyEyJ75L0Al7OdM7VbFEV2Y9HA1ytUiqde1v8ZvqSHwal9wsviqHWEzwxRDhGvE4UZPJAGlVKbZPt9Z_M4Q=w2400",
+        "feature": [
+            "5G"
+        ],
+        "price": "100"
+    },
+    "ri1": {
+        "name": "REDMI NOTE 13 PRO+",
+        "link": "https://lh3.googleusercontent.com/pw/AP1GczPW6_0mncDlosUNQBq4_X58_wEBI1-h3nIKNdIO7ZGj1LCGgkY_qo6lCY8JCaseDomJd26cdJI_Al8mOCNrrfNgoM_rJgTd2zlsvUE46ZUt138MWDw=w2400",
+        "feature": [
+            "5G"
+        ],
+        "price": "100"
+    },
+    "ri2": {
+        "name": "REDMI 13 C",
+        "link": "https://lh3.googleusercontent.com/pw/AP1GczMIQOXoFYXBwzJGvaxt2FQy1_N6e-fTJZXg85tHnNkvdPDHuVINW_KsxDEeHydVAFvDXFmtcAVenLh1Qc7kvVYvQwDDm8zmjhB_mvNORlR2At0YBco=w2400",
+        "feature": [
+            "5G"
+        ],
+        "price": "100"
+    },
+    "ri3": {
+        "name": "REDMI 12",
+        "link": "https://lh3.googleusercontent.com/pw/AP1GczMaielhrgEkeXc9KmeqLmKj3q3S_73N3lBtEwplCZPg3dhZ-SknZXZXRFKCpFP9BF7tZSRNUnfA8M_gpdhrOwScLsTFR4o9JLG3part_B01dV-tfhw=w2400",
+        "feature": [
+            "5G"
+        ],
+        "price": "100"
+    },
+    "ae1": {
+        "name": "APPLE IPHONE 13",
+        "link": "https://lh3.googleusercontent.com/pw/AP1GczNikvKInKaZdTsMkD6gG97z-nKJKkToEUPyM6wwinUiP2DRtQ3ElMphV8PPamsDwoB7hLW0ZITdk9lnO5Qp1EfqxfhtUGX43g1r0w3-EHddTXTu-Dw=w2400",
+        "feature": [
+            "5G"
+        ],
+        "price": "100"
+    },
+    "po1": {
+        "name": "POCO C 65",
+        "link": "https://lh3.googleusercontent.com/pw/AP1GczN04zzRMLW41-8OI3i_AHvXO7eAFkKSckWYvhgAktXo3QJW1xYVnXYmGpz3rf3Z5rC79V8pTfDAmDQk3lpnRjI1Na86USz_gXuD6TAse91Pm4-166s=w2400",
+        "feature": [
+            "5G"
+        ],
+        "price": "200"
+    }
+}
